@@ -35,7 +35,7 @@ const pressDiv = document.getElementById("pressDiv");
 const resetText = document.getElementById("resetText");
 
 pressDiv.style.display = "none";
-resetText.style.display=  "none";
+resetText.style.display = "none";
 
 
 // Výběr jména hráče:
@@ -202,8 +202,8 @@ pressDiv.onclick = () => {
     paper2 = 0;
     scissors2 = 0;
 
-    finalChoose.src = "../res/img/questionMark.png";
-    finalChoose2.src = "../res/img/questionMark.png";
+    finalChoose.src = "./res/img/questionMark.png";
+    finalChoose2.src = "./res/img/questionMark.png";
     win.innerText = "Winner: ";
     loss.innerText = "Loser: ";
     draw.style.display = "none";
