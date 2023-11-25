@@ -193,7 +193,15 @@ player2P3.addEventListener("click", () => {
 });
 
 pressDiv.onclick = () => {
-    // Resetování 
+    finalChoose.src = "./res/img/questionMark.png";
+    finalChoose.style.height = "250px";
+    finalChoose.style.width = "300px";
+
+    finalChoose2.src = "./res/img/questionMark.png";
+    finalChoose2.style.height = "250px";
+    finalChoose2.style.width = "300px";
+
+    // Resetování výběru
     rock = 0;
     paper = 0;
     scissors = 0;
@@ -213,12 +221,6 @@ pressDiv.onclick = () => {
     center2.style.paddingLeft = "230px";
     pressDiv.style.display = "none";
     resetText.style.display = "none";
-    finalChoose.src = "./res/img/questionMark.png";
-    finalChoose.style.height = "250px";
-    finalChoose.style.width = "300px";
-    finalChoose2.src = "./res/img/questionMark.png";
-    finalChoose2.style.height = "250px";
-    finalChoose2.style.width = "300px";
 }
 
 
