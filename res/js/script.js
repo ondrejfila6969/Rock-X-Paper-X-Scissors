@@ -214,7 +214,12 @@ pressDiv.onclick = () => {
     pressDiv.style.display = "none";
     resetText.style.display = "none";
     finalChoose.src = "./res/img/questionMark.png";
+    finalChoose.style.height = "250px";
+    finalChoose.style.width = "300px";
     finalChoose2.src = "./res/img/questionMark.png";
+    finalChoose2.style.height = "250px";
+    finalChoose2.style.width = "300px";
 }
+
 
 
