@@ -74,22 +74,22 @@ function ConditionsR2() {
     if(rock == "kámen" && rock2 == "kámen") {
         draw.style.display = "inline";
         draw.innerText = "Draw !";
-        finalChoose.src = "../res/img/rock.png";
-        finalChoose2.src = "../res/img/rock.png";
+        finalChoose.src = "./res/img/rock.png";
+        finalChoose2.src = "./res/img/rock.png";
     } else if (paper == "papír" && rock2 == "kámen") {
         win.innerText = "Winner: " + firstName;
         loss.innerText = "Loser: " + secondName;
         score1++;
         firstScore.innerText = "Score: " + score1;
-        finalChoose.src = "../res/img/paper.png";
-        finalChoose2.src = "../res/img/rock.png";
+        finalChoose.src = "./res/img/paper.png";
+        finalChoose2.src = "./res/img/rock.png";
     } else if (scissors == "nůžky" && rock2 == "kámen") {
         win.innerText = "Winner: " + secondName;
         loss.innerText = "Loser: " + firstName;
         score2++;
         secondScore.innerText = "Score: " + score2;
-        finalChoose.src = "../res/img/scissors.png";
-        finalChoose2.src = "../res/img/rock.png";
+        finalChoose.src = "./res/img/scissors.png";
+        finalChoose2.src = "./res/img/rock.png";
 
     }
 }
@@ -100,20 +100,20 @@ function ConditionsP2() {
         loss.innerText = "Loser: " + firstName;
         score2++;
         secondScore.innerText = "Score: " + score2;
-        finalChoose.src = "../res/img/rock.png";
-        finalChoose2.src = "../res/img/paper.png";
+        finalChoose.src = "./res/img/rock.png";
+        finalChoose2.src = "./res/img/paper.png";
     } else if (paper == "papír" && paper2 == "papír") {
         draw.style.display = "inline";
         draw.innerText = "Draw !";
-        finalChoose.src = "../res/img/paper.png";
-        finalChoose2.src = "../res/img/paper.png";
+        finalChoose.src = "./res/img/paper.png";
+        finalChoose2.src = "./res/img/paper.png";
     } else if(scissors == "nůžky" && paper2 == "papír") {
         win.innerText = "Winner: " + firstName;
         loss.innerText = "Loser: " + secondName;
         score1++;
         firstScore.innerText = "Score: " + score1;
-        finalChoose.src = "../res/img/scissors.png";
-        finalChoose2.src = "../res/img/paper.png";
+        finalChoose.src = "./res/img/scissors.png";
+        finalChoose2.src = "./res/img/paper.png";
     }
 }
 
@@ -123,20 +123,20 @@ function ConditionsS2() {
         loss.innerText = "Loser: " + secondName;
         score1++;
         firstScore.innerText = "Score: " + score1;
-        finalChoose.src = "../res/img/rock.png";
-        finalChoose2.src = "../res/img/scissors.png";
+        finalChoose.src = "./res/img/rock.png";
+        finalChoose2.src = "./res/img/scissors.png";
     } else if(paper == "papír" && scissors2 == "nůžky") {
         win.innerText = "Winner: " + secondName;
         loss.innerText = "Loser: " + firstName;
         score2++;    
         secondScore.innerText = "Score: " + score2;
-        finalChoose.src = "../res/img/paper.png";
-        finalChoose2.src = "../res/img/scissors.png";
+        finalChoose.src = "./res/img/paper.png";
+        finalChoose2.src = "./res/img/scissors.png";
     } else if(scissors == "nůžky" && scissors2 == "nůžky") {
         draw.style.display = "inline";
         draw.innerText = "Draw !";
-        finalChoose.src = "../res/img/scissors.png";
-        finalChoose2.src = "../res/img/scissors.png";
+        finalChoose.src = "./res/img/scissors.png";
+        finalChoose2.src = "./res/img/scissors.png";
     }
 }
 
