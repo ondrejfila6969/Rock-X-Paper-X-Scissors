@@ -59,8 +59,8 @@ body {
     max-height: 75px;
 }
 #name1 {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 #name2 {
     margin-left: 150px;
@@ -99,34 +99,34 @@ body {
     color: red;
 }
 #center1 {
-    padding-left: 230px;
+    padding-left: 310px;
 }
 #center2 {
-    padding-left: 230px;
+    padding-left: 280px;
 }
 #choose1{
     width: 300px;
     height: 250px;
     margin: 30px;
-    margin-left: 150px;
+    margin-left: 225px;
 }
 #choose2 {
     width: 300px;
     height: 250px;
     margin: 30px;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 #posMain1 {
     display: flex;
     margin-top: 45px;
     margin-bottom: 15px;
-    margin-left: 150px;
+    margin-left: 225px;
 }
 #posMain2 {
     display: flex;
     margin-top: 45px;
     margin-bottom: 15px;
-    margin-left: 160px;
+    margin-left: 190px;
 }
 .P1pos1, .P1pos2, .P1pos3 {
     width: 75px;
@@ -142,7 +142,7 @@ body {
 .P2pos1, .P2pos2, .P2pos3 {
     width: 75px;
     height: 75px;
-    margin-bottom: 70px;
+    margin-bottom: 280px;
 }
 .P2pos1 {
     margin-right: 35px;

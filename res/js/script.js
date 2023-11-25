@@ -60,18 +60,20 @@ let scissors2 = 0;
 // Změny + kontrola výhry
 function Change() {
     playCheck.innerText = "Played !";
-    center1.style.paddingLeft = "260px";
+    center1.style.paddingLeft = "340px";
     playCheck.style.color = "lime";
 }
 
 function Change2() {
     playCheck2.innerText = "Played !";
-    center2.style.paddingLeft = "255px";
+    center2.style.paddingLeft = "300px";
     playCheck2.style.color = "lime";
 }
 
 function ConditionsR2() {
     if(rock == "kámen" && rock2 == "kámen") {
+        win.style.display = "none";
+        loss.style.display = "none";
         draw.style.display = "inline";
         draw.innerText = "Draw !";
         finalChoose.src = "./res/img/rock.png";
@@ -103,6 +105,8 @@ function ConditionsP2() {
         finalChoose.src = "./res/img/rock.png";
         finalChoose2.src = "./res/img/paper.png";
     } else if (paper == "papír" && paper2 == "papír") {
+        win.style.display = "none";
+        loss.style.display = "none";
         draw.style.display = "inline";
         draw.innerText = "Draw !";
         finalChoose.src = "./res/img/paper.png";
@@ -133,6 +137,8 @@ function ConditionsS2() {
         finalChoose.src = "./res/img/paper.png";
         finalChoose2.src = "./res/img/scissors.png";
     } else if(scissors == "nůžky" && scissors2 == "nůžky") {
+        win.style.display = "none";
+        loss.style.display = "none";
         draw.style.display = "inline";
         draw.innerText = "Draw !";
         finalChoose.src = "./res/img/scissors.png";
@@ -210,15 +216,17 @@ pressDiv.onclick = () => {
     paper2 = 0;
     scissors2 = 0;
 
+    win.style.display = "block";
     win.innerText = "Winner: ";
+    loss.style.display = "block";
     loss.innerText = "Loser: ";
     draw.style.display = "none";
-    center1.style.paddingLeft = "230px";
+    center1.style.paddingLeft = "310px";
     playCheck.innerText = "Not played !";
     playCheck.style.color = "red";
     playCheck2.innerText = "Not played !";
     playCheck2.style.color = "red";
-    center2.style.paddingLeft = "230px";
+    center2.style.paddingLeft = "280px";
     pressDiv.style.display = "none";
     resetText.style.display = "none";
 }
