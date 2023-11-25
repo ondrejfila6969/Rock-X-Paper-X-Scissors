@@ -202,8 +202,6 @@ pressDiv.onclick = () => {
     paper2 = 0;
     scissors2 = 0;
 
-    finalChoose.src = "./res/img/questionMark.png";
-    finalChoose2.src = "./res/img/questionMark.png";
     win.innerText = "Winner: ";
     loss.innerText = "Loser: ";
     draw.style.display = "none";
@@ -215,6 +213,8 @@ pressDiv.onclick = () => {
     center2.style.paddingLeft = "230px";
     pressDiv.style.display = "none";
     resetText.style.display = "none";
+    finalChoose.src = "./res/img/questionMark.png";
+    finalChoose2.src = "./res/img/questionMark.png";
 }
 
 
