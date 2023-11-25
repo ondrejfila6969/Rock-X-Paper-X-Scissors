@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock x paper x scissors</title>
+    <link rel="stylesheet" href="res/css/style.css">
+</head>
+<body>
+
+    <div id="titleText">
+        <h1 id="title">Rock x paper x scissors</h1>
+        <div id="half">
+            <div id="name1">
+                <h4 id="firstPlayer">Player: </h4>
+                <h4 id="firstScore">Score: 0 </h4>
+            </div>
+            <div id="result">
+                <h4 class="win" id="win">Winner: </h4>
+                <h4 class="loss" id="loss">Loser: </h4>
+                <h4 id="draw">Draw !</h4>
+            </div>
+            <div id="name2">
+                <h4 id="secondPlayer">Player: </h4>
+                <h4 id="secondScore">Score: 0</h4>
+            </div>
+        </div>
+    </div>
+    
+    <div id="main">
+        <div id="player1">
+            <div id="center1">
+                <h2 id="playCheck">Not played !</h2>
+            </div>
+            <div id="choose1">
+                <img id="finalChoose" src="./res/img/questionMark.png" alt="" width="300px" height="250px">
+            </div>
+            <div id="posMain1">
+                <div class="P1pos1" id="player1P1">
+                    <img src="./res/img/rock.png" alt="" width="75px" height="75px">
+                </div>
+                <div class="P1pos2" id="player1P2">
+                    <img src="./res/img/paper.png" alt="" width="75px" height="75px">
+                </div>
+                <div class="P1pos3" id="player1P3">
+                    <img src="./res/img/scissors.png" alt="" width="75px" height="75px">
+                </div>
+            </div>
+        </div>
+        <div id="resetDiv">
+            <div id="pressDiv">
+                <h4 id="resetText">Click - next round</h4>
+            </div>
+        </div>
+        <div id="player2">
+            <div id="center2">
+                <h2 id="playCheck2">Not played !</h2>
+            </div>
+            <div id="choose2">
+                <img id="finalChoose2" src="./res/img/questionMark.png" alt="" width="300px" height="250px">
+            </div>
+            <div id="posMain2">
+                <div class="P2pos1" id="player2P1">
+                    <img src="./res/img/rock.png" alt="" width="75px" height="75px">
+                </div>
+                <div class="P2pos2" id="player2P2">
+                    <img src="./res/img/paper.png" alt="" width="75px" height="75px">
+                </div>
+                <div class="P2pos3" id="player2P3">
+                    <img src="./res/img/scissors.png" alt="" width="75px" height="75px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="res/js/script.js"></script>
+</body>
+</html>
